@@ -1,0 +1,131 @@
+section{
+    height:100vh;
+    width:100%;
+    margin-bottom:90px;
+    box-sizing: border-box;
+}
+.sec-heading{
+    font-size: 2.5rem;
+    font-style:normal;
+    font-weight:400;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    color:black
+}
+#header{
+    height:58px;
+    width:100%;
+    background-color: white;
+    position:fixed;
+    border-bottom: 2px solid grey;
+    z-index:1;
+    /*box-sizing:10 10 10 10px grey;*/
+}
+.header-list,li{
+    display: inline !important;
+}
+.header-list,li,a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    margin-bottom:10px;
+    letter-spacing: 2px;
+}
+li:hover{
+    background-color: silver;
+    height:min-content;
+    width:fit-content;
+}
+#home{
+    background-image: url("https://www.blueosa.com/wp-content/uploads/2020/01/the-best-top-10-indian-dishes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;
+    /*z-index:1;*/
+    position:relative;
+}
+/*ABOUT*/
+#about{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#about-con-div{
+    /*margin: 12px;*/
+    height:400px;
+    width:700px;
+}
+#about-des{
+    overflow: hidden;
+    margin-left: 20px;
+    font-size:1.2rem;
+    color:black;
+}
+#about-img{
+    height:650px;
+    width:500px;
+}
+/*MENU*/
+
+.menu-list{
+    pointer-events: none;
+}
+.menu-div{
+    /*text-align:start;*/
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;  
+    justify-content: space-around;
+}
+.item-name{
+    font-size:1.3rem;
+    color:black; 
+}
+.menu-text{
+    margin-left: 0px;
+    margin-top:20px;
+    margin-bottom:40px;
+    color:grey;
+    font-size:smaller;
+}
+#menu-img{
+    height:620px;
+    width:450px;
+}
+/*contact*/
+#contact{
+   
+    padding:90px;
+}
+#cont-flex{
+    /*margin:50px;*/
+    /*text-align:center;*/
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items:flex-start;*/
+}
+.cont-details{
+    /*margin:50px;*/
+    font-size: smaller;
+    color: black;
+    opacity: 1;
+    font-weight: 499;
+}
+#address{
+    color:slategrey;
+    font-size:1.1rem;
+    padding-left:-21px;
+}
+.c-form-input{
+    height: 55px;
+    border: none;
+    border-bottom: 1px solid gray!important;
+}
+.c-form-input:hover{
+    border:2px solid black!important;
+}
+.btn:hover{
+   background-color: grey;
+}
